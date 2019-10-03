@@ -22,10 +22,10 @@ public class PrimMSTTest {
         int n = 5;
 //        int[][] edges = {{1, 2, 20}, {1, 3, 50}, {1, 4, 70}, {1, 5, 90}, {2, 3, 30}, {3, 4, 40}, {4, 5, 60}};
 //        int n = 5;
-        System.out.println("Solution1: " + n + " --- " + PrimMSTSolution1.prims(n, edges, 1));
-        System.out.println("Solution2: " + n + " --- " + PrimMSTSolution2.prims(n, edges, 1));
-        System.out.println("Solution3: " + n + " --- " + PrimMSTSolution3.prims(n, edges, 1));
-        System.out.println("Solution4: " + n + " --- " + PrimMSTSolution4.prims(n, edges, 1));
+        System.out.println("Solution1: " + n + " --- " + PrimMST1.prims(n, edges, 1));
+        System.out.println("Solution2: " + n + " --- " + PrimMST2.prims(n, edges, 1));
+        System.out.println("Solution3: " + n + " --- " + PrimMST3.prims(n, edges, 1));
+        System.out.println("Solution4: " + n + " --- " + PrimMST4.prims(n, edges, 1));
     }
 
     public static void test2() throws FileNotFoundException {
@@ -46,7 +46,7 @@ public class PrimMSTTest {
         }
         int start = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-        System.out.println("Solution4: " + n + " --- " + PrimMSTSolution4.prims(n, edges, start));
+        System.out.println("Solution4: " + n + " --- " + PrimMST4.prims(n, edges, start));
         scanner.close();
     }
 }

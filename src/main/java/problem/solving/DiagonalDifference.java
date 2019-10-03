@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.stream.*;
 import static java.util.stream.Collectors.toList;
 
-public class DiagonalDifferenceSolution {
+public class DiagonalDifference {
 
     /*
      * Complete the 'diagonalDifference' function below.

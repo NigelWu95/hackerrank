@@ -7,7 +7,7 @@ import java.util.Arrays;
  * 下标位置保存距离该边最短的断点编号。在这个二维数组的 0 下标位置保存标志位，初始位 0，记录位 1 时表示已经加入图中，从节点遍历过程中直接利用最近的
  * 端点编号来得到最小距离，降低时间复杂度为 O(n^2)
  */
-public class PrimMSTSolution4 {
+public class PrimMST4 {
 
     // Complete the prims function below.
     static int prims(int n, int[][] edges, int start) {

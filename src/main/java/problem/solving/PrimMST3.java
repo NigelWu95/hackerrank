@@ -8,7 +8,7 @@ import java.util.Set;
  * 实现算法 3，使用新二维数组，数据下标表示节点标号，每个节点存在的边关系都存在数组中，在遍历过程中直接取已加入节点的边数组来遍历找到最小值，尽可能减
  * 少最内存边遍历的次数，时间复杂度为 O(n^3)
  */
-public class PrimMSTSolution3 {
+public class PrimMST3 {
 
     // Complete the prims function below.
     static int prims(int n, int[][] edges, int start) {
